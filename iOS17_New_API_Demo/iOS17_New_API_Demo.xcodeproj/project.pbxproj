@@ -15,6 +15,7 @@
 		E767F32E2A37565400C8FF1B /* TaskWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E767F31E2A37565300C8FF1B /* TaskWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E767F3352A37588B00C8FF1B /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F3332A37579B00C8FF1B /* TaskModel.swift */; };
 		E767F3372A375D9500C8FF1B /* ToggleStateIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F3362A375D9500C8FF1B /* ToggleStateIntent.swift */; };
+		E767F3392A3B48FA00C8FF1B /* InteractiveChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F3382A3B48FA00C8FF1B /* InteractiveChartsView.swift */; };
 		E799DEC82A34C02900265F0A /* iOS17_New_API_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799DEC72A34C02900265F0A /* iOS17_New_API_DemoApp.swift */; };
 		E799DECA2A34C02900265F0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799DEC92A34C02900265F0A /* ContentView.swift */; };
 		E799DECC2A34C02A00265F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E799DECB2A34C02A00265F0A /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		E767F32B2A37565400C8FF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E767F3332A37579B00C8FF1B /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		E767F3362A375D9500C8FF1B /* ToggleStateIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStateIntent.swift; sourceTree = "<group>"; };
+		E767F3382A3B48FA00C8FF1B /* InteractiveChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveChartsView.swift; sourceTree = "<group>"; };
 		E799DEC42A34C02900265F0A /* iOS17_New_API_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS17_New_API_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E799DEC72A34C02900265F0A /* iOS17_New_API_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_New_API_DemoApp.swift; sourceTree = "<group>"; };
 		E799DEC92A34C02900265F0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				E799DEE92A35B4D500265F0A /* AnimationSymbolDemo.swift */,
 				E799DEEB2A35BA4C00265F0A /* KeyframeAnimationDemo.swift */,
 				E799DEED2A35D37100265F0A /* MapDemoView.swift */,
+				E767F3382A3B48FA00C8FF1B /* InteractiveChartsView.swift */,
 				E799DECB2A34C02A00265F0A /* Assets.xcassets */,
 				E799DECD2A34C02A00265F0A /* Preview Content */,
 			);
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E799DECA2A34C02900265F0A /* ContentView.swift in Sources */,
+				E767F3392A3B48FA00C8FF1B /* InteractiveChartsView.swift in Sources */,
 				E799DEE82A35B1E100265F0A /* VisualEffectDemo.swift in Sources */,
 				E799DED82A35949000265F0A /* SwiftDataDemo.swift in Sources */,
 				E799DEE02A35AB4900265F0A /* AnimationCallBackView.swift in Sources */,

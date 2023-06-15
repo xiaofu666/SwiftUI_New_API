@@ -19,27 +19,29 @@ struct ContentView: View {
                         
                         NavigationLink("Scroll View 滚动定位", destination: ScrollViewDemo4())
                         
-                        NavigationLink("Scroll View Transition", destination: ScrollViewDemo5())
+                        NavigationLink("滚动视图头尾动画", destination: ScrollViewDemo5())
                         
-                        NavigationLink("Custom Transition", destination: CustomTransitionView())
+                        NavigationLink("自定义转场动画", destination: CustomTransitionView())
                         
-                        NavigationLink("Animation Callback", destination: AnimationCallBackView())
+                        NavigationLink("动画结束回调", destination: AnimationCallBackView())
                         
-                        NavigationLink("Observable & Bindable", destination: ObservableAndBindableDemo())
+                        NavigationLink("可观测的与可绑定的", destination: ObservableAndBindableDemo())
                         
-                        NavigationLink("UnevenRoundedRectangle", destination: UnevenRoundedRectangleDemo())
+                        NavigationLink("不均匀圆角矩形", destination: UnevenRoundedRectangleDemo())
                     }
                     
                     Group {
-                        NavigationLink("FeedBack", destination: FeedBackDemo())
+                        NavigationLink("反馈", destination: FeedBackDemo())
                         
-                        NavigationLink("VisualEffect", destination: VisualEffectDemo())
+                        NavigationLink("视觉效果", destination: VisualEffectDemo())
                         
-                        NavigationLink("AnimationSymbol", destination: AnimationSymbolDemo())
+                        NavigationLink("图标动画", destination: AnimationSymbolDemo())
                         
-                        NavigationLink("Keyframe Animation", destination: KeyframeAnimationDemo())
+                        NavigationLink("关键帧动画", destination: KeyframeAnimationDemo())
                         
-                        NavigationLink("Maps", destination: MapDemoView())
+                        NavigationLink("地图", destination: MapDemoView())
+                        
+                        NavigationLink("图表", destination: InteractiveChartsView())
                     }
                 }
             }
