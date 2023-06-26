@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E71CFBC42A49DF3A0017F3CF /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E71CFBC22A49DF3A0017F3CF /* Shaders.metal */; };
+		E71CFBC52A49DF3A0017F3CF /* ShaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CFBC32A49DF3A0017F3CF /* ShaderDemo.swift */; };
 		E767F3212A37565300C8FF1B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E767F3202A37565300C8FF1B /* WidgetKit.framework */; };
 		E767F3232A37565300C8FF1B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E767F3222A37565300C8FF1B /* SwiftUI.framework */; };
 		E767F3262A37565300C8FF1B /* TaskWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F3252A37565300C8FF1B /* TaskWidgetBundle.swift */; };
@@ -58,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E71CFBC22A49DF3A0017F3CF /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		E71CFBC32A49DF3A0017F3CF /* ShaderDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaderDemo.swift; sourceTree = "<group>"; };
 		E767F31E2A37565300C8FF1B /* TaskWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TaskWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E767F3202A37565300C8FF1B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		E767F3222A37565300C8FF1B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -166,6 +170,8 @@
 				E799DEEB2A35BA4C00265F0A /* KeyframeAnimationDemo.swift */,
 				E799DEED2A35D37100265F0A /* MapDemoView.swift */,
 				E767F3382A3B48FA00C8FF1B /* InteractiveChartsView.swift */,
+				E71CFBC32A49DF3A0017F3CF /* ShaderDemo.swift */,
+				E71CFBC22A49DF3A0017F3CF /* Shaders.metal */,
 				E799DECB2A34C02A00265F0A /* Assets.xcassets */,
 				E799DECD2A34C02A00265F0A /* Preview Content */,
 			);
@@ -299,8 +305,10 @@
 				E799DEE02A35AB4900265F0A /* AnimationCallBackView.swift in Sources */,
 				E799DEEE2A35D37100265F0A /* MapDemoView.swift in Sources */,
 				E799DEE62A35B07800265F0A /* FeedBackDemo.swift in Sources */,
+				E71CFBC52A49DF3A0017F3CF /* ShaderDemo.swift in Sources */,
 				E799DEEA2A35B4D500265F0A /* AnimationSymbolDemo.swift in Sources */,
 				E799DEEC2A35BA4C00265F0A /* KeyframeAnimationDemo.swift in Sources */,
+				E71CFBC42A49DF3A0017F3CF /* Shaders.metal in Sources */,
 				E799DEDE2A35A60500265F0A /* CustomTransitionView.swift in Sources */,
 				E799DEE22A35ADCF00265F0A /* ObservableAndBindableDemo.swift in Sources */,
 				E799DEDC2A359D4200265F0A /* ScrollViewDemo.swift in Sources */,

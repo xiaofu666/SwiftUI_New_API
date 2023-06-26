@@ -43,6 +43,13 @@ struct ContentView: View {
                         
                         NavigationLink("图表", destination: InteractiveChartsView())
                     }
+                    Group {
+                        NavigationLink("像素化", destination:PixellateView())
+                        
+                        NavigationLink("波浪", destination:WavesView())
+                        
+                        NavigationLink("灰度图", destination:GrayScaleView())
+                    }
                 }
             }
             .navigationTitle("iOS 17 New API")
