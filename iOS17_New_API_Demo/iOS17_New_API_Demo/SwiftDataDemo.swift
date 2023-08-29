@@ -11,11 +11,11 @@ import SwiftData
 struct SwiftDataDemo: View {
     @Environment(\.modelContext) private var ctx
     @Query(FetchDescriptor(
-        predicate: #Predicate { $0.isLiked == true },
+        predicate: #Predicate<Person> { $0.isLiked == true },
         sortBy: [SortDescriptor(\.dateAdded, order: .reverse)])
     ) private var favourites: [Person]
     @Query(FetchDescriptor(
-        predicate: #Predicate { $0.isLiked == false },
+        predicate: #Predicate<Person> { $0.isLiked == false },
         sortBy: [SortDescriptor(\.dateAdded, order: .reverse)])
     ) private var normals: [Person]
     

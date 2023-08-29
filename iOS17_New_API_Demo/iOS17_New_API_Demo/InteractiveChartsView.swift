@@ -79,7 +79,7 @@ struct InteractiveChartsView: View {
                 }
             }
             .chartXSelection(value: $barSelection)
-            .chartAngleSelection($pieSelection)
+            .chartAngleSelection(value: $pieSelection)
             .chartLegend(position: .bottom, alignment: graphType == .bar ? .leading : .center, spacing: 20)
             .frame(height: 200)
             .padding(.top, 10)

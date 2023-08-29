@@ -42,6 +42,8 @@ struct ContentView: View {
                         NavigationLink("地图", destination: MapDemoView())
                         
                         NavigationLink("图表", destination: InteractiveChartsView())
+                        
+                        NavigationLink("数字动画", destination: ChangeAnimationView())
                     }
                     Group {
                         NavigationLink("像素化", destination:PixellateView())
@@ -49,6 +51,8 @@ struct ContentView: View {
                         NavigationLink("波浪", destination:WavesView())
                         
                         NavigationLink("灰度图", destination:GrayScaleView())
+                        
+                        NavigationLink("TipKit", destination:TipKit())
                     }
                 }
             }

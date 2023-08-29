@@ -67,7 +67,7 @@ struct MapDemoView: View {
                     /// 地图指南针
                     MapCompass(scope: locationNamespace)
                     /// 映射Pitch
-                    MapPitchButton(scope: locationNamespace)
+                    MapPitchToggle(scope: locationNamespace)
                     /// 映射用户位置按钮
                     MapUserLocationButton(scope: locationNamespace)
                 })

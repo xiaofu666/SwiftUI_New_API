@@ -33,6 +33,8 @@
 		E799DEEA2A35B4D500265F0A /* AnimationSymbolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799DEE92A35B4D500265F0A /* AnimationSymbolDemo.swift */; };
 		E799DEEC2A35BA4C00265F0A /* KeyframeAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799DEEB2A35BA4C00265F0A /* KeyframeAnimationDemo.swift */; };
 		E799DEEE2A35D37100265F0A /* MapDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E799DEED2A35D37100265F0A /* MapDemoView.swift */; };
+		E7BAE12A2A9E315B00787450 /* ChangeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1292A9E315B00787450 /* ChangeAnimationView.swift */; };
+		E7BAE12E2A9E3AD500787450 /* TipKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE12D2A9E3AD500787450 /* TipKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		E799DEEB2A35BA4C00265F0A /* KeyframeAnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationDemo.swift; sourceTree = "<group>"; };
 		E799DEED2A35D37100265F0A /* MapDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemoView.swift; sourceTree = "<group>"; };
 		E799DEEF2A35E1FF00265F0A /* iOS17-New-API-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS17-New-API-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E7BAE1292A9E315B00787450 /* ChangeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAnimationView.swift; sourceTree = "<group>"; };
+		E7BAE12D2A9E3AD500787450 /* TipKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 				E799DEED2A35D37100265F0A /* MapDemoView.swift */,
 				E767F3382A3B48FA00C8FF1B /* InteractiveChartsView.swift */,
 				E71CFBC32A49DF3A0017F3CF /* ShaderDemo.swift */,
+				E7BAE1292A9E315B00787450 /* ChangeAnimationView.swift */,
+				E7BAE12D2A9E3AD500787450 /* TipKit.swift */,
 				E71CFBC22A49DF3A0017F3CF /* Shaders.metal */,
 				E799DECB2A34C02A00265F0A /* Assets.xcassets */,
 				E799DECD2A34C02A00265F0A /* Preview Content */,
@@ -306,6 +312,8 @@
 				E799DEEE2A35D37100265F0A /* MapDemoView.swift in Sources */,
 				E799DEE62A35B07800265F0A /* FeedBackDemo.swift in Sources */,
 				E71CFBC52A49DF3A0017F3CF /* ShaderDemo.swift in Sources */,
+				E7BAE12E2A9E3AD500787450 /* TipKit.swift in Sources */,
+				E7BAE12A2A9E315B00787450 /* ChangeAnimationView.swift in Sources */,
 				E799DEEA2A35B4D500265F0A /* AnimationSymbolDemo.swift in Sources */,
 				E799DEEC2A35BA4C00265F0A /* KeyframeAnimationDemo.swift in Sources */,
 				E71CFBC42A49DF3A0017F3CF /* Shaders.metal in Sources */,
