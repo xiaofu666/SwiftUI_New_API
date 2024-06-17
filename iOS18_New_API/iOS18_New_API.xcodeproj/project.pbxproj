@@ -20,6 +20,8 @@
 		E750906A2C19EE36004C76A1 /* ContainerKeyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75090692C19EE36004C76A1 /* ContainerKeyValues.swift */; };
 		E750906C2C19F0B3004C76A1 /* ScrollPositionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750906B2C19F0B3004C76A1 /* ScrollPositionDemo.swift */; };
 		E750906E2C19F225004C76A1 /* NewSymbolEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */; };
+		E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */; };
+		E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E75090692C19EE36004C76A1 /* ContainerKeyValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerKeyValues.swift; sourceTree = "<group>"; };
 		E750906B2C19F0B3004C76A1 /* ScrollPositionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionDemo.swift; sourceTree = "<group>"; };
 		E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSymbolEffects.swift; sourceTree = "<group>"; };
+		E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientDemo.swift; sourceTree = "<group>"; };
+		E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				E75090672C19ECB5004C76A1 /* ScrollVisibilityChange.swift */,
 				E750906B2C19F0B3004C76A1 /* ScrollPositionDemo.swift */,
 				E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */,
+				E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */,
+				E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */,
 				E75090532C19D407004C76A1 /* Assets.xcassets */,
 				E75090552C19D407004C76A1 /* Preview Content */,
 			);
@@ -172,7 +178,9 @@
 				E750906E2C19F225004C76A1 /* NewSymbolEffects.swift in Sources */,
 				E75090662C19E9D9004C76A1 /* ScrollPhaseChange.swift in Sources */,
 				E75090682C19ECB5004C76A1 /* ScrollVisibilityChange.swift in Sources */,
+				E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */,
 				E75090522C19D405004C76A1 /* ContentView.swift in Sources */,
+				E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */,
 				E75090642C19E4C1004C76A1 /* ScrollGeometryChange.swift in Sources */,
 				E75090502C19D405004C76A1 /* iOS18_New_APIApp.swift in Sources */,
 			);
