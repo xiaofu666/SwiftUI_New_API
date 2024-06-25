@@ -22,6 +22,7 @@
 		E750906E2C19F225004C76A1 /* NewSymbolEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */; };
 		E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */; };
 		E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */; };
+		E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSymbolEffects.swift; sourceTree = "<group>"; };
 		E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientDemo.swift; sourceTree = "<group>"; };
 		E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E750906D2C19F225004C76A1 /* NewSymbolEffects.swift */,
 				E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */,
 				E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */,
+				E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */,
 				E75090532C19D407004C76A1 /* Assets.xcassets */,
 				E75090552C19D407004C76A1 /* Preview Content */,
 			);
@@ -172,6 +175,7 @@
 			files = (
 				E750905E2C19D599004C76A1 /* ZoomTransitionsDemo.swift in Sources */,
 				E750906A2C19EE36004C76A1 /* ContainerKeyValues.swift in Sources */,
+				E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */,
 				E750906C2C19F0B3004C76A1 /* ScrollPositionDemo.swift in Sources */,
 				E75090602C19DD48004C76A1 /* CustomContainerViews.swift in Sources */,
 				E75090622C19E0F7004C76A1 /* UIKitGestureRepresentable.swift in Sources */,

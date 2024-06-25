@@ -36,6 +36,8 @@ struct ContentView: View {
                         NavigationLink("网格渐变色", destination: MeshGradientDemo())
                         
                         NavigationLink("iPad导航栏", destination: FloatingTabBar())
+                        
+                        NavigationLink("TextSelection", destination: TextSelectionAPI())
                     }
                 }
             }
