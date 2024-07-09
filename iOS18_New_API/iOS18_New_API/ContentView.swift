@@ -38,6 +38,8 @@ struct ContentView: View {
                         NavigationLink("iPad导航栏", destination: FloatingTabBar())
                         
                         NavigationLink("TextSelection", destination: TextSelectionAPI())
+                        
+                        NavigationLink("MoreTabBarHidden", destination: MoreTabBarHidden())
                     }
                 }
             }

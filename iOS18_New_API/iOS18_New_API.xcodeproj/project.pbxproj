@@ -23,6 +23,7 @@
 		E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */; };
 		E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */; };
 		E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */; };
+		E75D70AE2C3C27E800BC0A93 /* MoreTabBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientDemo.swift; sourceTree = "<group>"; };
 		E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
 		E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionAPI.swift; sourceTree = "<group>"; };
+		E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabBarHidden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				E75D70262C207B8800BC0A93 /* MeshGradientDemo.swift */,
 				E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */,
 				E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */,
+				E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */,
 				E75090532C19D407004C76A1 /* Assets.xcassets */,
 				E75090552C19D407004C76A1 /* Preview Content */,
 			);
@@ -185,6 +188,7 @@
 				E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */,
 				E75090522C19D405004C76A1 /* ContentView.swift in Sources */,
 				E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */,
+				E75D70AE2C3C27E800BC0A93 /* MoreTabBarHidden.swift in Sources */,
 				E75090642C19E4C1004C76A1 /* ScrollGeometryChange.swift in Sources */,
 				E75090502C19D405004C76A1 /* iOS18_New_APIApp.swift in Sources */,
 			);
