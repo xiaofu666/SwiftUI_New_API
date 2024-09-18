@@ -24,6 +24,9 @@
 		E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */; };
 		E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */; };
 		E75D70AE2C3C27E800BC0A93 /* MoreTabBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */; };
+		E7AAF8CD2C9B184B007339FC /* PhaseAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */; };
+		E7AAF8CF2C9B1C58007339FC /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */; };
+		E7AAF8D12C9B1FA3007339FC /* KeyframeAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
 		E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionAPI.swift; sourceTree = "<group>"; };
 		E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabBarHidden.swift; sourceTree = "<group>"; };
+		E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorDemo.swift; sourceTree = "<group>"; };
+		E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
+		E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */,
 				E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */,
 				E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */,
+				E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */,
+				E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */,
+				E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */,
 				E75090532C19D407004C76A1 /* Assets.xcassets */,
 				E75090552C19D407004C76A1 /* Preview Content */,
 			);
@@ -177,13 +186,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E750905E2C19D599004C76A1 /* ZoomTransitionsDemo.swift in Sources */,
+				E7AAF8D12C9B1FA3007339FC /* KeyframeAnimatorDemo.swift in Sources */,
 				E750906A2C19EE36004C76A1 /* ContainerKeyValues.swift in Sources */,
 				E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */,
+				E7AAF8CD2C9B184B007339FC /* PhaseAnimatorDemo.swift in Sources */,
 				E750906C2C19F0B3004C76A1 /* ScrollPositionDemo.swift in Sources */,
 				E75090602C19DD48004C76A1 /* CustomContainerViews.swift in Sources */,
 				E75090622C19E0F7004C76A1 /* UIKitGestureRepresentable.swift in Sources */,
 				E750906E2C19F225004C76A1 /* NewSymbolEffects.swift in Sources */,
 				E75090662C19E9D9004C76A1 /* ScrollPhaseChange.swift in Sources */,
+				E7AAF8CF2C9B1C58007339FC /* TransitionDemo.swift in Sources */,
 				E75090682C19ECB5004C76A1 /* ScrollVisibilityChange.swift in Sources */,
 				E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */,
 				E75090522C19D405004C76A1 /* ContentView.swift in Sources */,

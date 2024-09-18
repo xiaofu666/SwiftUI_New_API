@@ -40,6 +40,12 @@ struct ContentView: View {
                         NavigationLink("TextSelection", destination: TextSelectionAPI())
                         
                         NavigationLink("MoreTabBarHidden", destination: MoreTabBarHidden())
+                        
+                        NavigationLink("PhaseAnimatorDemo", destination: PhaseAnimatorDemo())
+                        
+                        NavigationLink("TransitionDemo", destination: TransitionDemo())
+                        
+                        NavigationLink("KeyframeAnimatorDemo", destination: KeyframeAnimatorDemo())
                     }
                 }
             }

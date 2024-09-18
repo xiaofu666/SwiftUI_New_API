@@ -24,7 +24,7 @@ struct CustomView3<Content: View>: View {
     
     var body: some View {
         VStack(spacing: 10) {
-            Group(subviewsOf: content) { collection in
+            Group(subviews: content) { collection in
                 ForEach(collection) { subView in
                     let index = subView.containerValues.floatIndex
                     

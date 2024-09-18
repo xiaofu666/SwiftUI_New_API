@@ -38,7 +38,7 @@ struct CustomView1<Content: View>: View {
     
     var body: some View {
         VStack(spacing: 10) {
-            Group(subviewsOf: content) { collection in
+            Group(subviews: content) { collection in
                 ForEach(collection) { subview in
                     subview
                 }
@@ -52,7 +52,7 @@ struct CustomView2<Content: View>: View {
     
     var body: some View {
         VStack(spacing: 10) {
-            Group(sectionsOf: content) { collection in
+            Group(sections: content) { collection in
                 ForEach(collection) { section in
                     HStack {
                         section.header
