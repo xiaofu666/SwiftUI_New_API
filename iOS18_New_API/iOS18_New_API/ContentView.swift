@@ -46,6 +46,14 @@ struct ContentView: View {
                         NavigationLink("TransitionDemo", destination: TransitionDemo())
                         
                         NavigationLink("KeyframeAnimatorDemo", destination: KeyframeAnimatorDemo())
+                        
+                        NavigationLink("GestureIssue", destination: GestureIssue())
+                        
+                        NavigationLink("DownsizedImageDemo", destination: DownsizedImageDemo())
+                        
+                        NavigationLink("TranslationDemo", destination: TranslationDemo())
+                        
+                        NavigationLink("PencilKitDemo", destination: PencilKitDemo())
                     }
                 }
             }

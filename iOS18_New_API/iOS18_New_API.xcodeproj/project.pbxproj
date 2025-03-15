@@ -24,9 +24,14 @@
 		E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */; };
 		E75D702D2C2AF72400BC0A93 /* TextSelectionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */; };
 		E75D70AE2C3C27E800BC0A93 /* MoreTabBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */; };
+		E772CB0A2D1323C40024EDEE /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772CB092D1323C40024EDEE /* View+Extensions.swift */; };
+		E772CB482D2D65640024EDEE /* DownsizedImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772CB472D2D65640024EDEE /* DownsizedImageDemo.swift */; };
+		E7A5DDD72D8503F400558BE4 /* TranslationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5DDD62D8503F400558BE4 /* TranslationDemo.swift */; };
+		E7A5DDD92D8506CE00558BE4 /* PencilKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5DDD82D8506CE00558BE4 /* PencilKitDemo.swift */; };
 		E7AAF8CD2C9B184B007339FC /* PhaseAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */; };
 		E7AAF8CF2C9B1C58007339FC /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */; };
 		E7AAF8D12C9B1FA3007339FC /* KeyframeAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */; };
+		E7BB5CF22CEB9A8F00FE168C /* GestureIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB5CF12CEB9A8F00FE168C /* GestureIssue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +53,14 @@
 		E75D70282C20895E00BC0A93 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
 		E75D702C2C2AF72400BC0A93 /* TextSelectionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionAPI.swift; sourceTree = "<group>"; };
 		E75D70AD2C3C27E800BC0A93 /* MoreTabBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabBarHidden.swift; sourceTree = "<group>"; };
+		E772CB092D1323C40024EDEE /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		E772CB472D2D65640024EDEE /* DownsizedImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownsizedImageDemo.swift; sourceTree = "<group>"; };
+		E7A5DDD62D8503F400558BE4 /* TranslationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationDemo.swift; sourceTree = "<group>"; };
+		E7A5DDD82D8506CE00558BE4 /* PencilKitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitDemo.swift; sourceTree = "<group>"; };
 		E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorDemo.swift; sourceTree = "<group>"; };
 		E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorDemo.swift; sourceTree = "<group>"; };
+		E7BB5CF12CEB9A8F00FE168C /* GestureIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureIssue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 				E7AAF8CC2C9B184B007339FC /* PhaseAnimatorDemo.swift */,
 				E7AAF8CE2C9B1C58007339FC /* TransitionDemo.swift */,
 				E7AAF8D02C9B1FA3007339FC /* KeyframeAnimatorDemo.swift */,
+				E7BB5CF12CEB9A8F00FE168C /* GestureIssue.swift */,
+				E772CB092D1323C40024EDEE /* View+Extensions.swift */,
+				E772CB472D2D65640024EDEE /* DownsizedImageDemo.swift */,
+				E7A5DDD62D8503F400558BE4 /* TranslationDemo.swift */,
+				E7A5DDD82D8506CE00558BE4 /* PencilKitDemo.swift */,
 				E75090532C19D407004C76A1 /* Assets.xcassets */,
 				E75090552C19D407004C76A1 /* Preview Content */,
 			);
@@ -198,10 +213,15 @@
 				E7AAF8CF2C9B1C58007339FC /* TransitionDemo.swift in Sources */,
 				E75090682C19ECB5004C76A1 /* ScrollVisibilityChange.swift in Sources */,
 				E75D70292C20895E00BC0A93 /* FloatingTabBar.swift in Sources */,
+				E7A5DDD92D8506CE00558BE4 /* PencilKitDemo.swift in Sources */,
 				E75090522C19D405004C76A1 /* ContentView.swift in Sources */,
 				E75D70272C207B8800BC0A93 /* MeshGradientDemo.swift in Sources */,
+				E772CB482D2D65640024EDEE /* DownsizedImageDemo.swift in Sources */,
+				E7A5DDD72D8503F400558BE4 /* TranslationDemo.swift in Sources */,
 				E75D70AE2C3C27E800BC0A93 /* MoreTabBarHidden.swift in Sources */,
+				E7BB5CF22CEB9A8F00FE168C /* GestureIssue.swift in Sources */,
 				E75090642C19E4C1004C76A1 /* ScrollGeometryChange.swift in Sources */,
+				E772CB0A2D1323C40024EDEE /* View+Extensions.swift in Sources */,
 				E75090502C19D405004C76A1 /* iOS18_New_APIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +359,7 @@
 				DEVELOPMENT_TEAM = NN56R38BZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存绘图至相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,6 +389,7 @@
 				DEVELOPMENT_TEAM = NN56R38BZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存绘图至相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
