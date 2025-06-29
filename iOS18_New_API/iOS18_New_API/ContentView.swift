@@ -54,7 +54,7 @@ struct ContentView: View {
                         NavigationLink("TranslationDemo", destination: TranslationDemo())
                         
                         NavigationLink("PencilKitDemo", destination: PencilKitDemo())
-                    }
+                    } 
                 }
             }
             .navigationTitle("iOS 18 New API")
